@@ -1,0 +1,225 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    background-color: white;
+}
+
+.container-1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 28rem;
+    top: 2rem;
+}
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+    align-self: center;
+    position: absolute;
+}
+
+.strong {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+    align-self: center;
+    position: relative;
+    top: 4rem;
+}
+
+.content-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    margin-top: 1rem;
+    position: relative;
+    top: 4.3rem;
+}
+
+.c1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    margin-top: 0.1rem;
+    align-self: center;
+    position: relative;
+    top: 4.4rem;
+}
+
+.container-2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 9rem;
+    top: 28rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 14rem;
+    background-color: white;
+    box-shadow: 0px 0px 50px 0px hsl(229, 6%, 66%);
+}
+
+.dummy-2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 9rem;
+    top: 27.8rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 13.8rem;
+    background-color: hsl(180, 62%, 55%);
+    z-index: -1;
+}
+
+.container-3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 32rem;
+    top: 18rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 14rem;
+    background-color: white;
+    box-shadow: 0px 0px 50px 0px hsl(229, 6%, 66%);
+}
+
+.dummy-3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 32rem;
+    top: 17.8rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 13.8rem;
+    background-color: hsl(0, 78%, 62%);
+    z-index: -1;
+}
+
+.container-4 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 32rem;
+    top: 34rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 14rem;
+    background-color: white;
+    box-shadow: 0px 0px 50px 0px hsl(229, 6%, 66%);
+}
+
+.dummy-4 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 32rem;
+    top: 33.8rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 13.8rem;
+    background-color: hsl(34, 97%, 64%);
+    z-index: -1;
+}
+
+.container-5 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 55rem;
+    top: 28rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 14rem;
+    background-color: white;
+    box-shadow: 0px 0px 50px 0px hsl(229, 6%, 66%);
+}
+
+.dummy-5 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 55rem;
+    top: 27.8rem;
+    border: 0rem black solid;
+    border-radius: 0.5rem;
+    width: 21rem;
+    height: 13.8rem;
+    background-color: hsl(212, 86%, 64%);
+    z-index: -1;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: hsl(234, 12%, 34%);
+    align-self: center;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.content-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: hsl(234, 12%, 34%);
+    align-self: center;
+    position: absolute;
+    margin-top: 0.1rem;
+    top: 4rem;
+    left: 2rem;
+}
+
+.img {
+    width: 4rem;
+    position: absolute;
+    left: 15rem;
+    top: 8rem;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    position: absolute;
+    left: 30.5rem;
+}
